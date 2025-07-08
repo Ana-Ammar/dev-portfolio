@@ -21,6 +21,17 @@
     padding: 18px 35px;
     border-radius: 5px;
 }
+.btn-primary-contact{
+    background-color: #FFFFFF;
+    font-weight: bold;
+    color: #FD6E0A;
+    font-size: 20px;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px; 
+    border: 1px solid #FD6E0A;
+    margin-left: 30px;
+}
 .dark-03{
     color: #757575;
 }
