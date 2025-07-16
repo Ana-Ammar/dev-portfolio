@@ -132,7 +132,9 @@ main section{
     color: #474747;
     line-height: 2px;
 }
-/* SKills styles */
+
+    /* SKills styles */
+
 
 .skills-container{
     display: flex;
@@ -172,13 +174,13 @@ main section{
     font-size: 25px;
     color: #474747;
     margin-bottom: none;
-    line-height: 10px;
+    /* line-height: 10px; */
 }
 .experience-sub-title{
     font-weight: 600;
     font-size: 20px;
     color:#757575;
-    line-height: 0%;
+    /* line-height: 0%; */
 }
 .experience-description{
     font-size: 16px;
@@ -223,4 +225,31 @@ footer textarea{
     margin-bottom: 24px;
     border: none;
     font-size: 16px;
+}
+
+
+    /* Responsive Media Query */
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .skills-container, 
+    .resume-container, 
+    footer,
+    .about-items {
+        flex-direction: column;
+    }
+
+    footer, .about {
+        padding: 20px;
+    }
+    
+    .footer-column {
+        width: 100%;
+    }
+    footer input[type="text"], footer input[type="email"], footer textarea{
+        width: calc(100% - 40px);
+    }
 }
